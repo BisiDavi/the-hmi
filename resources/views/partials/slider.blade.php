@@ -134,27 +134,40 @@
     <div class="jssor-slides" data-u="slides"
       style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
       <div class="img-container">
+        <div class="img-overlay">
+          <div class="content m-auto">
+            <h1 class="text-center text-white">WELCOME TO HMI</h1>
+            <div class="welcome d-flex">
+              <hr class="bg-yellow w-25">
+              <p class="text-white">Welcome back - We've Missed You</p>
+              <hr class="bg-yellow w-25">
+            </div>
+            <button class="btn btn outline-primary">Read About Our Covid 19 Measures</button>
+          </div>
+        </div>
         <img data-u="image" class="slider-image" src="{{ asset('images/slider1.jpg') }}" />
-        <div class="slider-text" data-u="thumb">Slide Description 001
+        <div class="slider-text" style="display: none !important" data-u="thumb">Slide Description 001
         </div>
       </div>
       <div class="img-container">
+        <div class="img-overlay"></div>
         <img data-u="image" class="slider-image" src="{{ asset('images/slider2.jpg') }}" />
-        <div class="slider-text" data-u="thumb">Slide Description 002
+        <div class="slider-text " style="display: none !important" data-u="thumb">Slide Description 002
         </div>
       </div>
     </div>
+    {{--
     <!-- Thumbnail Navigator -->
     <div u="thumbnavigator"
-      style="position:absolute;bottom:0px;left:0px;width:980px;height:50px;color:#FFF;overflow:hidden;cursor:default;background-color:rgba(0,0,0,.5);">
-      <div u="slides">
+      style="position:absolute;top:150px;left:0px;display:none !important;width:980px;height:60px;color:#FFF;overflow:hidden;cursor:default;background-color:rgba(0,0,0,.5);">
+      <div u="slides" style="display: none!important;">
         <div u="prototype" style="position:absolute;top:0;left:0;width:980px;height:50px;">
           <div u="thumbnailtemplate"
             style="position:absolute;top:0;left:0;width:100%;height:100%;font-family:arial,helvetica,verdana;font-weight:normal;line-height:50px;font-size:16px;padding-left:10px;box-sizing:border-box;">
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
     <!-- Arrow Navigator -->
     <div data-u="arrowleft" class="jssora061" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2"
       data-scale="0.75" data-scale-left="0.75">

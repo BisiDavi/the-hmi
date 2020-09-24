@@ -401,6 +401,7 @@ nav.navbar.float-panel.container-fluid {
     text-align: center !important;
     padding: 10px 10px 10px 10px;
     display: flex;
+    text-decoration: none;
     justify-content: center;
 }
 
