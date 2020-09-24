@@ -15,7 +15,7 @@
         <img src="{{ asset('images/card-image-1.jpg') }}" alt="Covid 19 Measures">
       </div>
       <div class="post-tag">
-        Latest News
+        <a href="/latest-news"> Latest News</a>
       </div>
       <div class="post-date">
         <p>Jul</p>

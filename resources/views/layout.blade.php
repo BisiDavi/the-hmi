@@ -14,7 +14,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="js/jssor.slider-28.0.0.min.js"></script>
   <link rel="stylesheet" href="css/slider.css">
@@ -25,11 +24,12 @@
 
   @include('partials.nav')
 
-  @include('partials.slider')
-
   @yield('content')
 
   @include('partials.footer')
+
+  @yield('footerlink')
+
 </body>
 
 </html>

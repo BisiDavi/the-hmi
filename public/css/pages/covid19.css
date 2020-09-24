@@ -83,3 +83,37 @@ hr.m-auto.w-25 {
     font: normal 500 40px / 50px "Oswald", Helvetica, Arial, Verdana, sans-serif;
     text-transform: none;
 }
+
+h3.offer-date{
+    color: #540F87;
+}
+
+.post-image img {
+    height: 560px;
+    width: 96vw;
+    margin-left: 5px;
+}
+
+.post-tag a{
+    text-decoration: none;
+    color: white;
+}
+
+.post p {
+    margin: 25px 8px !important;
+    font-weight: lighter !important;
+    font-family: sans-serif;
+    font-size: 15px !important;
+}
+
+h3.offer-date span {
+    color: black;
+    font-size: 27px !important;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+    margin-bottom:10px ;
+}
+
+.post-tag a:hover{
+    color: red;
+}

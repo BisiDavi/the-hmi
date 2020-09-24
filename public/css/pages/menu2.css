@@ -13,6 +13,101 @@ section.menu.container-fluid {
     color: white;
 }
 
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+.nav li.col-lg-3.md-3.active {
+    background: rgba(0,0,0,0.4);
+}
+
+.nav li.col-lg-3.md-3 {
+    background-color: #540F87;
+    margin: auto;
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px 100px;
+    max-width: 260px !important;
+}
+
+span.title {
+    color: white;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav li p {
+    color: white;
+    font-size: 20px !important;
+    font-family: "Karla";
+    margin-left: -35px !important;
+    margin: 0;
+}
+
+.hmi-menu.d-flex {
+    margin-left: -10px;
+}
+
+.tab-pane button.rounded-circle {
+    margin: 20px 0;
+    background: #540F87;
+    border: none;
+}
+
+i.fa.fa-arrow-circle-right {
+    color: #540F87 !important;
+    margin-top: 2%;
+}
+
+.tab-pane p {
+    margin-top: 20px;
+    text-align: center !important;
+    margin: auto;
+}
+.tab-pane button {
+    margin-right: 40% !important;
+}
+
+.tab-pane ul li {
+    list-style: none;
+    border-bottom: 1px solid #cce;
+    text-align: center !important;
+    height: 50px;
+    display: flex;
+}
+
+.tab-content .starters img {
+    width: 18%;
+    margin-right: 20px;
+    height: 120px;
+    margin-left: 10px;
+}
+
+.tab-content .starters {
+    width: 1000px;
+    /* display: flex !important; */
+}
+
+ul.nav.nav-pills.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-price {
+    color: black;
+    margin-left: 15px;
+}
+.menu-name {
+    color: black;
+    margin-right: 15px;
+}
+.menu-post {
+    color: black;
+}
+
 .our-menu .button {
     display: none;
 }

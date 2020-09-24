@@ -12,57 +12,124 @@
   <div class="menu container">
     @include('includes.menu')
 
-    <div class="row">
-      <div class="col-lg-3 md-3">
-        <a href="#starters">
-          <button class="btn btn-light button">Starters</button>
+    <ul class="nav nav-pills row">
+      <li class="col-lg-3 md-3 active">
+        <a href="#1b" data-toggle="tab">
+          <span class="title">Starters</span>
         </a>
-      </div>
-      <div class="col-lg-3 md-3">
-        <a href="#Sides">
-          <button class="btn btn-light button">Sides</button>
+      </li>
+      <li class="col-lg-3 md-3">
+        <a href="#2b" data-toggle="tab">
+          <span class="title">Sides</span>
         </a>
-      </div>
-      <div class="col-lg-3 md-3">
-        <a href="#Mains">
-          <button class="btn btn-light button">Mains</button>
+      </li>
+      <li class="col-lg-3 md-3">
+        <a href="#3b" data-toggle="tab">
+          <span class="title"> Mains</span>
         </a>
-      </div>
-      <div class="col-lg-3 md-3">
-        <a href="#Specials">
-          <button class="btn btn-light button">Specials</button>
+      </li>
+      <li class="col-lg-3 md-3">
+        <a href="#4b" data-toggle="tab">
+          <span class="title"> Specials</span>
         </a>
-      </div>
-    </div>
+      </li>
+    </ul>
 
-    <div class="row">
-      <div class="starters menu-item">
-        <img src="{{ asset('gallery-2.jpg') }}" alt="our menu">
-        <div class="menu-post">
-          Bruschetta ---------------------------------£2.95 Simply the best bruschetta comprising of chopped tomatoes
-          onions and pesto
+    <div class="tab-content clearfix  mt-5 mb-5">
+      <div id="1b" class="tab-pane active starters">
+        <div class="hmi-menu d-flex">
+          <img src="{{ asset('images/gallery-2.jpg') }}" alt="our menu">
+          <div class="menu-post">
+            <span class="menu-name">
+              Bruschetta
+            </span>------------------------------------------------------------------------------------------------
+            <span class="menu-price">£2.95</span> Simply the
+            best bruschetta comprising of chopped tomatoes
+            onions and pesto
+          </div>
         </div>
       </div>
-      <div class="sides menu-item">
-        <div class="container">
-          <ul>
-            <li> <button class="rounded-circle">></button>
-              Lorem ipsum </li>
-            <li> <button class="rounded-circle">></button>
-              dolor sit amet, consectetur</li>
-            <li> <button class="rounded-circle">></button>
-              adipiscing elit,</li>
-            <li> <button class="rounded-circle">></button>
-              sed do eiusmod</li>
-            <li> <button class="rounded-circle">></button>
-              tempor incididunt</li>
-            <li> <button class="rounded-circle">></button>
-              ut labore et dolore</li>
-            <li> <button class="rounded-circle">></button>
-              magna aliqua.</li>
-          </ul>
-        </div>
+      <div class="tab-pane" id="2b">
+        <ul>
+          <li>
+            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> Lorem ipsum </p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> dolor sit amet, consectetur</p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> adipiscing elit,</p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> sed do eiusmod</p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> tempor incididunt</p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> ut labore et dolore</p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> magna aliqua.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="tab-pane" id="3b">
+        <ul>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> Lorem ipsum </p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> dolor sit amet, consectetur</p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> adipiscing elit,</p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> sed do eiusmod</p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> tempor incididunt</p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> ut labore et dolore</p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> magna aliqua.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="tab-pane" id="4b">
+        <ul>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> Lorem ipsum </p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> dolor sit amet, consectetur</p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> adipiscing elit,</p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> sed do eiusmod</p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> tempor incididunt</p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> ut labore et dolore</p>
+          </li>
+          <li> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <p> magna aliqua.</p>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
+@endsection
+
+@section('footerlink')
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 @endsection

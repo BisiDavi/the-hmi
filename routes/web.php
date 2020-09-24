@@ -22,4 +22,7 @@ Route::view('/special-2', 'pages.special2');
 Route::view('/latest-news', 'pages.latestnews');
 Route::view('/gallery', 'pages.gallery');
 Route::view('/contact-us-2', 'pages.contact');
-Route::view('/covid-19', 'pages.covid19');
+Route::view('/covid-19', 'post.covid19');
+Route::view('/2-for-1-burger', 'post.burger');
+Route::view('/early-bird-specials', 'post.earlybird');
+Route::view('/half-price-drinks', 'post.halfdrinks');

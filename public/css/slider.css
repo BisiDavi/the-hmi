@@ -38,10 +38,6 @@ img.slider-image {
   height: 330px !important;
 }
 
-/* .arrow {
-    margin-top: -15%;
-} */
-
 .content.m-auto h1 {
     color: yellow !important;
     font-size: 60px;
@@ -57,6 +53,15 @@ img.slider-image {
 
 .welcome hr.bg-yellow.w-25 {
     border: 1px solid yellow !important;
+}
+
+.jssora061 {
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.54);
+    top: -200px !important;
+    cursor: pointer;
 }
 
 .welcome p.text-white {

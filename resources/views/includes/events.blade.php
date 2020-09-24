@@ -21,9 +21,7 @@
         <div class="flip-card-back">
           <div class="flip-card-back-overlay">
             <div class="flip-card-text">
-              <i></i>
-              <h5 class="title text-white"></h5>
-              <h5 class="info">Details about Bingo</h5>
+              <p class="info text-white">Details about Bingo</p>
             </div>
           </div>
         </div>
@@ -43,7 +41,6 @@
         <div class="flip-card-back">
           <div class="flip-card-back-overlay">
             <div class="flip-card-text">
-              <i></i>
               <p class="text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eaque ipsa expedita iste quos esse
                 dignissimos voluptates accusantium vitae perferendis quibusdam omnis ab maiores earum perspiciatis

@@ -18,20 +18,21 @@
     margin: 20px 0px;
 }
 
-.col-6.early-bird {
+.col-6.specials2 {
     background: rgba(0,0,0,0.03);
     padding: 15px;
 }
 
-.special-page h2{
-  color: #540F87;
-  font-family: "Oswald", Sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.6px; 
+.special-page h2 a {
+    color: #540F87;
+    font-family: "Oswald", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.6px;
 }
 
-.early-bird a {
+.specials2 a {
     text-decoration: none;
 }
 
@@ -57,13 +58,13 @@
     padding: 15% 0;
 }
 
-.early-bird p {
+.specials2 p {
     color: #000000;
     font-family: "Karla", Sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
-.early-bird h3 {
+.specials2 h3 {
     color: #540F87;
 }

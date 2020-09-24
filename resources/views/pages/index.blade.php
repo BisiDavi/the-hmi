@@ -2,6 +2,7 @@
 
 @section('content')
   <div class="landingpage">
+    @include('partials.slider')
     @include('includes.events')
     @include('includes.specials')
     @include('includes.menu')
