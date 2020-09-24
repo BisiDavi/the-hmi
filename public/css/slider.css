@@ -1,0 +1,35 @@
+#jssor_1{
+  width: 100% !important;
+  height: 550px !important ;
+}
+
+#jssor_1 .jssor-slides{
+  width: 100% !important;
+  height: 550px !important ;
+}
+
+.jssor-slides .img-container {
+    width: 100% !important;
+    height: 550px !important;
+}
+
+.img-container div:first-child {
+    width: 100% !important;
+    height: 560px !important;
+}
+
+img.slider-image {
+    width: 100% !important;
+    height: 560px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.img-container div:first-child {
+    width: 100% !important;
+    height: 560px !important;
+}
+
+/* .arrow {
+    margin-top: -15%;
+} */
