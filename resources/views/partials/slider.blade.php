@@ -150,7 +150,17 @@
         </div>
       </div>
       <div class="img-container">
-        <div class="img-overlay"></div>
+        <div class="img-overlay">
+          <div class="content m-auto">
+            <h1 class="text-center text-white">WELCOME TO HMI</h1>
+            <div class="welcome d-flex">
+              <hr class="bg-yellow w-25">
+              <p class="text-white">Your Local Family Social Club</p>
+              <hr class="bg-yellow w-25">
+            </div>
+            <button class="btn btn outline-primary">Find Out Whats</button>
+          </div>
+        </div>
         <img data-u="image" class="slider-image" src="{{ asset('images/slider2.jpg') }}" />
         <div class="slider-text " style="display: none !important" data-u="thumb">Slide Description 002
         </div>
