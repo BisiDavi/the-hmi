@@ -20,7 +20,7 @@
 
 img.slider-image {
     width: 100% !important;
-    height: 560px !important;
+    /* height: 560px !important; */
     padding: 0px !important;
     margin: 0px !important;
 }
