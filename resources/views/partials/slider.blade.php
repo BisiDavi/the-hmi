@@ -142,7 +142,7 @@
               <p class="text-white">Welcome back - We've Missed You</p>
               <hr class="bg-yellow w-25">
             </div>
-            <button class="btn btn outline-primary">Read About Our Covid 19 Measures</button>
+            <button class="btn btn-outline-light">Read About Our Covid 19 Measures</button>
           </div>
         </div>
         <img data-u="image" class="slider-image" src="{{ asset('images/slider1.jpg') }}" />
@@ -158,7 +158,7 @@
               <p class="text-white">Your Local Family Social Club</p>
               <hr class="bg-yellow w-25">
             </div>
-            <button class="btn btn outline-primary">Find Out Whats</button>
+            <button class="btn btn-outline-light">Find Out Whats</button>
           </div>
         </div>
         <img data-u="image" class="slider-image" src="{{ asset('images/slider2.jpg') }}" />

@@ -63,10 +63,10 @@ img.slider-image {
     font-size: 12px;
     margin-top: 4px;
     line-height: 30px;
+    font-family: "Karla";
 }
 
-button.btn.btn.outline-primary {
-    margin: 0 auto !important;
+button.btn.btn-outline-light {
+    margin: auto !important;
     display: flex;
-    color: white !important;
 }
