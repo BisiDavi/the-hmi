@@ -28,7 +28,7 @@ form.contact-form input {
 
 section.contact.container-fluid {
   position: relative;
-  background-image: url('../images/contact-form-image.jpg');
+  background-image: url('../../images/contact-form-image.jpg');
   background-position: center;
   height: 1000px;
   padding-top: 100px;
