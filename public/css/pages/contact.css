@@ -1,0 +1,45 @@
+form.contact-form {
+  width: 75%;
+  margin: 5% auto !important;
+  margin-left: 23% !important;
+}
+.message textarea#message {
+    width: 730px !important;
+    height: 300px !important;
+    padding: 20px;
+    background: #FFFFFF57;
+    color: rgba(0,0,0,.4);
+}
+
+.message label {
+    margin-bottom: 10px;
+}
+
+.message.d-flex {
+    flex-direction: column;
+    padding: 10px;
+    margin-top: -20px;
+}
+
+form.contact-form input {
+    border: none !important;
+    width: 105%;
+}
+
+section.contact.container-fluid {
+  position: relative;
+  background-image: url('../images/contact-form-image.jpg');
+  background-position: center;
+  height: 1000px;
+  padding-top: 100px;
+}
+
+.bg-overlay {
+    height: 1000px;
+}
+
+button.btn.btn-warning {
+    width: 10%;
+    padding: 6px;
+    margin: 0 -5px !important;
+}

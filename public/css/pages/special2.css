@@ -1,0 +1,69 @@
+.special-page{
+  background-image: url('../../images/text-background.jpg') !important;
+    padding-bottom: 30px;
+}
+
+.col-6.image img {
+    width: 100%;
+    height: 350px;
+    margin: 0px;
+}
+
+.special-page .col-6.image {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container-fluid.special-page .row {
+    margin: 20px 0px;
+}
+
+.col-6.early-bird {
+    background: rgba(0,0,0,0.03);
+    padding: 15px;
+}
+
+.special-page h2{
+  color: #540F87;
+  font-family: "Oswald", Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.6px; 
+}
+
+.early-bird a {
+    text-decoration: none;
+}
+
+.special-page .row:first-child{
+  margin: auto;
+  width: 25%;
+}
+
+.special-page h1.section-title.text-dark {
+    padding: 10% 0;
+    font-family: "Oswald", Sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+
+.section-banner hr {
+    border: 1px solid yellow !important;
+    width: 35% !important;
+    margin-top: -10px !important;
+}
+
+.section-banner {
+    padding: 15% 0;
+}
+
+.early-bird p {
+    color: #000000;
+    font-family: "Karla", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.early-bird h3 {
+    color: #540F87;
+}

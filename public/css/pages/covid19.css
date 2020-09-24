@@ -1,0 +1,85 @@
+.container-fluid.covid-post .row {
+    position: relative;
+    padding: 0 15px;
+}
+
+.post-image img {
+    width: 100%;
+    height: 500px;
+}
+
+.post-tag {
+    position: absolute;
+    top: 10px;
+    background: black;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    left: 25px;
+}
+
+.post li strong {
+    font-weight: bolder !important;
+}
+.post ul li {
+    font-weight: 100 !important;
+}
+
+
+ p.day {
+    font: 700 22px/28px Arial !important;
+    margin-bottom: 2px !important;
+    margin-top: 2px !important;
+    padding: 2px !important;
+}
+
+.post-date {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    background: white;
+    padding: 10px;
+    height: 100px;
+}
+
+.post-date hr {
+    margin: 0 !important;
+    border: 1px solid black;
+    padding: 0 !important;
+    width: 20px;
+    margin: auto !important;
+}
+
+.post-date p {
+    color: black;
+    margin: 0 !important;
+    text-align: center;
+    font: 700 12px/22px Arial;
+    padding: 1px;
+}
+
+.commment.m-auto {
+    padding-bottom: 180px;
+    padding-top: 30px;
+}
+
+hr.m-auto.w-25 {
+    border: 1px solid #540f87;
+    width: 7% !important;
+    margin-bottom: 3% !important;
+}
+
+.postbutton button.btn.btn-light {
+    color: #ffffff;
+    background-color: #540f87;
+    background: #540f87;
+    margin: 0 15px;
+    margin-bottom: -1px;
+    border: none;
+}
+
+.post h1.post-title{
+  color: #0a0a0a;
+    font: normal 500 40px / 50px "Oswald", Helvetica, Arial, Verdana, sans-serif;
+    text-transform: none;
+}

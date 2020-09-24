@@ -1,0 +1,14 @@
+.latest-news{
+  background-image: url('../../images/text-background.jpg') !important;
+  padding-bottom: 35px;
+}
+
+.latest-news h1.text-center {
+    color: black;
+}
+
+.latest-news .card-body {
+    background: rgba(0,0,0,0.03);
+    padding: 30px 50px;
+    position: relative;
+}

@@ -1,0 +1,38 @@
+.container-fluid.snooker-return .banner {
+    width: 100% !important;
+    padding: 40px;
+    background: rgba(0,0,0,0.045);
+}
+
+.container-fluid.snooker-return {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.breadcrumbs a {
+    text-decoration:none;
+}
+
+.uploaded-post {
+    padding: 20px;
+}
+
+.commment.m-auto {
+    padding-bottom: 180px;
+    padding-top: 30px;
+}
+
+hr.m-auto.w-25 {
+    border: 1px solid #540f87;
+    width: 7% !important;
+    margin-bottom: 3% !important;
+}
+
+.postbutton button.btn.btn-light {
+    color: #ffffff;
+    background-color: #540f87;
+    background: #540f87;
+    margin: 0 15px;
+    margin-bottom: -1px;
+    border: none;
+}

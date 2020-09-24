@@ -1,0 +1,34 @@
+section.menu.container-fluid {
+    background: none !important;
+}
+
+.menu.container {
+    background: none !important;
+}
+
+.menu button.button {
+    width: 260px;
+    padding: 15px 20px;
+    background: #540F87;
+    color: white;
+}
+
+.our-menu .button {
+    display: none;
+}
+.our-menu p.hidden.text-center {
+    display: block !important;
+    width: 60%;
+    text-align: center !important;
+    margin: auto;
+    font-weight: lighter !important;
+}
+.our-menu p {
+    display: none;
+}
+
+hr.w-25.border-warning {
+    width: 10% !important;
+    border: 1px solid yellow !important;
+    margin-top: -10px;
+}
