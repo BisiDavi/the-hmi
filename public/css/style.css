@@ -251,7 +251,19 @@ nav.navbar.float-panel.container-fluid {
   background-position: center center;
 }
 
-.git address
+.special  img{
+    -webkit-transition: transform .2s linear;
+	-moz-transition: transform .2s linear;
+	-o-transition: transform .2s linear;
+	transition: transform .2s linear;
+}
+
+.special img:hover{
+    -webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+}
 
 .specials hr.m-auto {
     border: 1px solid yellow;
