@@ -255,6 +255,24 @@ nav.navbar.float-panel.container-fluid {
   background-position: center center;
 }
 
+.special-img-container{
+    overflow: hidden;
+    position: relative;
+}
+
+.card .title a{
+  font: normal 500 20px "Oswald", Helvetica, Arial, Verdana, sans-serif;
+    color:white;
+    text-decoration:none;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.special .card .title a:hover{
+    transition: all .3s ease-in-out;
+    color: #4E0F7B;
+}
+
 .special  img{
     -webkit-transition: transform .2s linear;
 	-moz-transition: transform .2s linear;
@@ -263,10 +281,10 @@ nav.navbar.float-panel.container-fluid {
 }
 
 .special img:hover{
-    -webkit-transform: scale(1.5);
-	-moz-transform: scale(1.5);
-	-o-transform: scale(1.5);
-	transform: scale(1.5);
+    -webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .specials hr.m-auto {
@@ -533,8 +551,6 @@ img.news-thumbnail{
     color: white !important;
     text-decoration: none;
 }
-
-
 
 .gallery .container-fluid {
   background-color: var(--dark);

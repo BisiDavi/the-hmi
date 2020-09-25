@@ -1,6 +1,6 @@
 #jssor_1{
   width: 100% !important;
-  height: 550px !important ;
+  height: 600px !important ;
 }
 
 #jssor_1 .jssor-slides{
@@ -35,7 +35,7 @@ img.slider-image {
   position: absolute;
   width: 100% !important;
   background: rgba(0,0,0,0.30);
-  height: 330px !important;
+  height: 360px !important;
 }
 
 .content.m-auto h1 {
@@ -74,4 +74,11 @@ img.slider-image {
 button.btn.btn-outline-light {
     margin: auto !important;
     display: flex;
+    border-color: rgba(225,225,225,0.5) !important;
+}
+
+button.btn.btn-outline-light:hover {
+    color: white !important;
+    background: transparent !important;
+    border-color: white !important;
 }
