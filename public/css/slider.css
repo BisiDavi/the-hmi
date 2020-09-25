@@ -40,14 +40,14 @@ img.slider-image {
 
 .content.m-auto h1 {
     color: yellow !important;
-    font-size: 60px;
+    font-size: 35px;
     font-family: Oswald;
 }
 
 .content.m-auto {
     max-width: 500px !important;
     margin-left: 15% !important;
-    margin-top: 30px !important;
+    margin-top: 100px !important;
     max-height: 300px !important;
 }
 
