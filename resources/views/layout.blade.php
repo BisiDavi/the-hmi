@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="js/jssor.slider-28.0.0.min.js"></script>
   <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="css/mobile.css">
   @yield('link')
 </head>
 
