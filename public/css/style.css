@@ -485,26 +485,55 @@ img.news-thumbnail{
   --shadow: rgba(0,0,0,.2);
 }
 
-/* .gallery-overlay {
-    z-index: 1000;
-    /* display: none; 
+.image-container{
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container:hover .gallery-overlay {
+      left: 0;
+      display: block;
+      transition: opacity 0.3s ease;
+    }
+
+
+.gallery-overlay {
+    z-index: 10;
+    display: none;
     background: yellow;
+    top: 0px;
     height: 500px;
     position: absolute !important;
     opacity: 0.75;
-    width: 435px;
+    width: 500px;
     transition: opacity 600ms ease;
 }
 
-.gallery-overlay:hover{
-    display:block;
+.gallery-overlay a {
+    display: flex;
+    background: black;
+    color: white !important;
+    border-radius: 4px;
+    margin: 20px;
+    cursor:pointer;
+    height: 20px;
+    justify-content: space-evenly;
+    width: 65px;
+    text-decoration: none !important;
 }
- */
 
-/* .galley-images a:hover {
-  background: yellow;
-  height: 300px;
-} */
+.gallery-overlay a p {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.gallery-overlay i {
+    color: white !important;
+    text-decoration: none;
+}
+
 
 
 .gallery .container-fluid {
@@ -521,8 +550,6 @@ img.news-thumbnail{
     position: relative;
 }
 
-
-
 .gallery-images > a > img {
   width: 100%;
   height: 100%;
@@ -536,7 +563,6 @@ img.news-thumbnail{
   font-weight: 700;
   margin:auto;
 }
-
 
 .gallery{
   background-image: url('../images/text-background.jpg');
