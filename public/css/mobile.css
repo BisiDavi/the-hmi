@@ -113,6 +113,15 @@ button.btn.btn-outline-light{
 /* Reqular Events */
 .col-lg-4.col-md-4.col-sm-6.col-xs-6.flip-card {
     margin: 5px 0px;
+    height: 350px;
+}
+
+.flip-card-back-overlay {
+    height: 350px;
+    margin-top: 70px;
+}
+.flip-card-front-overlay {
+    height: 350px;
 }
 
 section.container-fluid.events {
@@ -174,6 +183,10 @@ section.latest-news.container-fluid .news-wrapper {
     height: 100vh;
 }
 
+ul #menulinks{
+    display:block;
+}
+
 .navbar li {
     list-style: none;
     margin: 10px;
@@ -182,12 +195,31 @@ section.latest-news.container-fluid .news-wrapper {
     display: flex;
 }
 
-.social-icons button.btn.btn-success.font-weight-bold {
-    position: absolute;
-    right: 175px;
-    top: 550px;
-    z-index: 1000;
-    border-radius: 0px;
+#menulinks li:last-child{
+  border-bottom: none;
+}
+
+#menulinks .contact{
+  border-bottom: none;
+}
+
+.social-icons i.fa.fa-facebook.rounded-circle.p-2.mr-2.text-white {
+    margin-top: -3px !important;
+    width: 29px;
+    /* margin-right: 25px !important; */
+}
+
+#menulinks li.menu a:last-child {
+    border: none;
+}
+
+#menulinks li.menu a:last-child:hover {
+    border: none;
+}
+
+.menu button.btn.btn-success.d-block.d-sm-none.font-weight-bold {
+    border: none;
+    margin-top: 50px;
 }
 
 ul.social-icons {
@@ -210,6 +242,17 @@ ul.social-icons {
 .logo img {
     width: 90%;
     margin: 2px;
+}
+
+.menu-icon.d-block.d-sm-none i {
+    color: black;
+}
+.menu-icon.d-block.d-sm-none {
+    position: absolute;
+    right: 20px !important;
+    color: red;
+    top: 20px;
+    z-index: 10000;
 }
 
 /* Footer */

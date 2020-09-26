@@ -6,7 +6,7 @@
     </div>
     <div>
       <ul>
-        <div class="menu-links">
+        <div id="menulinks" class="menu-links">
           <li class="menu">
             <a href="/">Home</a>
           </li>
@@ -25,8 +25,15 @@
           <li class="menu">
             <a href="/gallery">Gallery</a>
           </li>
-          <li class="menu">
+          <li class="menu contact">
             <a href="/contact-us-2">Contact us</a>
+          </li>
+          <li class="menu">
+            <a href="#">
+              <button class="btn btn-success d-block d-sm-none font-weight-bold">
+                (01323) 840459
+              </button>
+            </a>
           </li>
       </ul>
     </div>
@@ -43,12 +50,17 @@
         </li>
         <li>
           <a href="#">
-            <button class="btn btn-success font-weight-bold">
+            <button class="btn btn-success d-none d-lg-block d-xl-none font-weight-bold">
               (01323) 840459
             </button>
           </a>
         </li>
       </ul>
+    </div>
+    <div class="menu-icon d-block d-sm-none">
+      <a href="javascript:void(0);" onclick="toggleMenu()">
+        <i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+      </a>
     </div>
   </div>
 </nav>
