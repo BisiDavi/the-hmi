@@ -1,5 +1,5 @@
 <section class="specials container-fluid">
-  <div class="row">
+  <div class="row d-block">
     <h1 class="text-center">Special Offers</h1>
     <hr class="m-auto">
   </div>
