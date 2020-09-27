@@ -1,14 +1,14 @@
 form.contact-form {
-  width: 75%;
-  margin: 5% auto !important;
-  margin-left: 23% !important;
+    width: 75%;
+    margin: 5% auto !important;
+    margin-left: 23% !important;
 }
 .message textarea#message {
     width: 730px !important;
     height: 300px !important;
     padding: 20px;
-    background: #FFFFFF57;
-    color: rgba(0,0,0,.4);
+    background: #ffffff57;
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .message label {
@@ -23,15 +23,15 @@ form.contact-form {
 
 form.contact-form input {
     border: none !important;
-    width: 105%;
+    width: 100%;
 }
 
 section.contact.container-fluid {
-  position: relative;
-  background-image: url('../../images/contact-form-image.jpg');
-  background-position: center;
-  height: 1000px;
-  padding-top: 100px;
+    position: relative;
+    background-image: url("../../images/contact-form-image.jpg");
+    background-position: center;
+    height: 1000px;
+    padding-top: 100px;
 }
 
 .bg-overlay {
@@ -42,4 +42,166 @@ button.btn.btn-warning {
     width: 10%;
     padding: 6px;
     margin: 0 -5px !important;
+}
+
+@media (min-width: 300px) and (max-width: 580px) {
+    section.contact.container-fluid {
+        height: 1150px !important;
+    }
+    .message.d-flex {
+        height: 220px !important;
+    }
+    form button.btn.btn-warning {
+        width: 40%;
+    }
+    .content hr.m-auto {
+        margin-top: 30px !important;
+    }
+    .row.formmessage {
+        height: 50% !important;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .content {
+        margin-top: -60px !important;
+    }
+    .bg-overlay {
+        height: 1150px !important;
+    }
+    form .row:first-child {
+        display: block !important;
+    }
+    form.contact-form.my-5 {
+        margin-left: 2% !important;
+    }
+    form .row .message.d-flex textarea#message {
+        width: 300px !important;
+        margin-left: 0px !important;
+    }
+}
+
+@media (min-width: 1300px) {
+    .contact .card-group.mb-3 {
+        margin-top: -20px;
+    }
+    .message textarea#message {
+        width: 795px !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .message textarea#message {
+        width: 700px !important;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 330px) {
+    .logo img {
+        width: 60%;
+        margin-top: 6px !important;
+    }
+}
+
+@media (min-width: 370px) and (max-width: 380px) {
+    form.contact-form.my-5 {
+        margin-left: 10px !important;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+    form .row .message.d-flex textarea#message {
+        width: 123% !important;
+    }
+    form.contact-form input {
+        width: 125% !important;
+    }
+    section.contact.container-fluid {
+        height: 1150px !important;
+    }
+    .bg-overlay {
+        height: 1150px !important;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    form .row .message.d-flex textarea#message {
+        width: 153% !important;
+    }
+    form.contact-form input {
+        width: 126% !important;
+    }
+}
+
+@media (min-width: 260px) and (max-width: 300px) {
+    .header-links ul.social-icons {
+        display: none;
+    }
+    section.contact.container-fluid {
+        height: 1150px !important;
+    }
+    .bg-overlay {
+        height: 1150px !important;
+    }
+    .contact h1.text-center {
+        font-size: 36px !important;
+        margin-top: -30px !important;
+    }
+    .contact hr.m-auto {
+        margin-top: 25px !important;
+    }
+    form.contact-form.my-5 {
+        margin-left: 0% !important;
+    }
+    .message textarea#message {
+        width: 250px !important;
+        margin: auto !important;
+        margin-left: 0px !important;
+        height: 150px !important;
+    }
+    .contact-form button.btn {
+        width: 25% !important;
+    }
+    .card-group.mb-3 {
+        margin-left: -5px !important;
+    }
+    p.card-text.text-center.font-weight-bold {
+        font-size: 14px !important;
+    }
+    .social-icons.pull-right {
+        position: absolute;
+        bottom: 32px;
+        left: 25%;
+    }
+    footer p.pull-left.text-white {
+        margin-top: 12px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .message textarea#message {
+        width: 800px !important;
+    }
+    form.contact-form.my-5 {
+        margin-left: 10% !important;
+    }
+    .logo img {
+        width: 80%;
+        margin: -7px 0px 0px 15px !important;
+    }
+    .navbar div:nth-child(2) {
+        margin-left: -35px;
+    }
+    nav.navbar.float-panel.container-fluid a {
+        font-size: 16px !important;
+    }
+
+    ul li button.btn.btn-success.font-weight-bold {
+        display: none;
+    }
+    .menu-icon.d-block {
+        display: none !important;
+    }
+    .header-links {
+        margin-left: -9%;
+    }
 }

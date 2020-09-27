@@ -22,7 +22,7 @@ html {
 }
 
 section.container-fluid.events {
-    height: 700px;
+    height: 650px;
 }
 
 .events .button.m-auto a {
@@ -801,6 +801,7 @@ footer div#backtop {
 }
 
 footer.bg-dark.p-4 {
+    position: relative;
     height: 70px !important;
     background: #00000c none no-repeat center center !important;
 }

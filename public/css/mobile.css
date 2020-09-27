@@ -676,3 +676,139 @@ ul #menulinks{
         height: 70% !important;
     }
 }
+
+@media (min-width: 700px) and (max-width: 800px) {
+    form.contact-form.my-5 {
+        margin: 0% !important;
+    }
+    form.contact-form.my-5 .row {
+        margin: auto;
+    }
+    form.contact-form.my-5 .row:first-child div {
+        width: 100vh !important;
+    }
+    form .row {
+        width: 100% !important;
+        margin: auto;
+    }
+    form .message textarea#message {
+        width: 700px !important;
+    }
+    form button.btn.btn-warning {
+        margin-left: 1% !important;
+        margin-bottom: 30px !important;
+    }
+    section.contact.container-fluid {
+        height: 920px;
+    }
+    .content hr {
+        margin-bottom: 7% !important;
+    }
+    .content h1.text-center {
+        padding-bottom: 20px;
+    }
+    .content {
+        margin-top: -20px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .logo img {
+        width: 80%;
+        margin: -7px 0px 0px 15px !important;
+    }
+    .navbar div:nth-child(2) {
+        margin-left: -35px;
+    }
+    nav.navbar.float-panel.container-fluid a {
+        font-size: 16px !important;
+    }
+
+    ul li button.btn.btn-success.font-weight-bold {
+        display: none;
+    }
+    .menu-icon.d-block {
+        display: none !important;
+    }
+    .header-links {
+        margin-left: -9%;
+    }
+}
+
+@media (min-width: 260px) and (max-width: 300px) {
+    .header-links ul.social-icons {
+        display: none;
+    }
+
+    .social-icons.pull-right {
+        position: absolute;
+        bottom: 32px;
+        left: 25%;
+    }
+    footer p.pull-left.text-white {
+        margin-top: 12px;
+    }
+    .logo img {
+        width: 75% !important;
+        margin-top: -2px !important;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 780px) {
+    .covid-post.post-image img {
+        width: 740px !important;
+        height: 300px !important;
+    }
+}
+
+@media (min-width: 310px) and (max-width: 320px) {
+    .header-links {
+        margin-top: 2%;
+    }
+    .logo img {
+        width: 60%;
+        margin-top: 5% !important;
+    }
+    h1.post-title.my-3 {
+        font-size: 20px !important;
+        margin-bottom: 0px !important;
+    }
+    .covid-post .post p {
+        margin-top: 0px !important;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 440px) {
+    .logo img {
+        width: 80%;
+        margin-top: -2px !important;
+    }
+
+    ul.social-icons {
+        margin-top: 15px !important;
+    }
+    h1.post-title.my-3 {
+        font-size: 25px !important;
+        margin-bottom: 0px !important;
+    }
+    .covid-post .post p {
+        margin-top: 0px !important;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 379px) {
+    .logo img {
+        width: 70%;
+        margin-top: 4px !important;
+    }
+    .header-links {
+        margin-top: 8px;
+    }
+    h1.post-title.my-3 {
+        margin: 0px !important;
+        font-size: 22px !important;
+    }
+    .covid-post .post p {
+        margin-top: 0px !important;
+    }
+}

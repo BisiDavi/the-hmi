@@ -17,20 +17,20 @@
         <hr class="m-auto">
         <form action="" class="contact-form my-5">
           <div class="row">
-            <div class="name col-3">
+            <div class="name col-lg-4 col-md-3 col-xs-12">
               <label for="name">Your name</label>
               <input type="text" placeholder="John Doe">
             </div>
-            <div class="email col-3">
+            <div class="email col-lg-4 col-md-3 col-xs-12">
               <label for="email">Email address *</label>
               <input type="email" placeholder="example@domain.com">
             </div>
-            <div class="phone col-3">
+            <div class="phone col-lg-4 col-md-3 col-xs-12">
               <label for="phone">Email address *</label>
               <input type="email" placeholder="+1-999-999-9999">
             </div>
           </div>
-          <div class="row">
+          <div class="row formmessage">
             <div class="message d-flex">
               <label for="message">Message *</label>
               <textarea name="message" id="message" cols="30" rows="10">Tell us briefly about your needs?</textarea>
@@ -43,7 +43,7 @@
         <div class="card-group mb-3">
           <div class="card">
             <span class="icon my-4 mx-auto">
-              <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+              <img src="{{ asset('images/map.svg') }}" alt="map">
             </span>
             <p class="card-text text-center font-weight-bold">
               Western Road, Hailsham, BN27 3DN
@@ -51,7 +51,7 @@
           </div>
           <div class="card">
             <span class="icon my-4 mx-auto">
-              <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+               <img src="{{ asset('images/mobile-phone.svg') }}" alt="map">
             </span>
             <p class="card-text text-center font-weight-bold">
               (01323) 840459
@@ -59,7 +59,7 @@
           </div>
           <div class="card">
             <span class="icon my-4 mx-auto">
-              <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+              <img src="{{ asset('images/email.svg') }}" alt="map">
             </span>
             <p class="card-text text-center font-weight-bold">
               office@thehmi.co.uk

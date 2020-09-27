@@ -25,8 +25,7 @@
     font-weight: 100 !important;
 }
 
-
- p.day {
+p.day {
     font: 700 22px/28px Arial !important;
     margin-bottom: 2px !important;
     margin-top: 2px !important;
@@ -78,14 +77,14 @@ hr.m-auto.w-25 {
     border: none;
 }
 
-.post h1.post-title{
-  color: #333333;
+.post h1.post-title {
+    color: #333333;
     font: normal 500 40px / 50px "Oswald", Helvetica, Arial, Verdana, sans-serif;
     text-transform: none;
 }
 
-h3.offer-date{
-    color: #540F87;
+h3.offer-date {
+    color: #540f87;
 }
 
 .post-image img {
@@ -94,7 +93,7 @@ h3.offer-date{
     margin-left: 5px;
 }
 
-.post-tag a{
+.post-tag a {
     text-decoration: none;
     color: white;
 }
@@ -111,56 +110,55 @@ h3.offer-date span {
     font-size: 27px !important;
     font-weight: bold;
     font-family: "Karla", sans-serif;
-    margin-bottom:10px ;
+    margin-bottom: 10px;
 }
 
-.post-tag a:hover{
+.post-tag a:hover {
     color: red;
 }
 
-@media (minwidth:500px) and (max-width:650px){
-.post {
-    margin-top: -60px;
-}
-.post-image img {
-    height: 80% !important;
-    margin-bottom: 0px !important;
-}
-}
-
-@media (min-width:350px) and (max-width:370px){
-    h1.post-title.my-3 {
-    margin-top: 45px !important;
+@media (minwidth: 500px) and (max-width: 650px) {
+    .post {
+        margin-top: -60px;
     }
     .post-image img {
-    width: 100%;
-
-}
-}
-
-@media (width:500px){
-.post-image img {
-    width: 90vw !important;
-}
+        height: 80% !important;
+        margin-bottom: 0px !important;
+    }
 }
 
-@media (max-width:450px){
+@media (min-width: 350px) and (max-width: 370px) {
+    h1.post-title.my-3 {
+        margin-top: 10px !important;
+    }
     .post-image img {
-    width: 100% !important;
-    height: 100%;
-    margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media (width: 500px) {
+    .post-image img {
+        width: 90vw !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .post-image img {
+        width: 100% !important;
+        height: 100%;
+        margin-left: 0;
     }
     .menu-icon.d-block {
-    right: 20px !important;
-    position: absolute;
-    bottom: 13px !important;
+        right: 20px !important;
+        position: absolute;
+        bottom: 13px !important;
     }
 }
 
-@media (min-width:500px) and (max-width:800px){
-   .post-image img {
-    height: 90% !important;
-    width: 93vw;
-    margin: 0px !important;
-}
+@media (min-width: 500px) and (max-width: 800px) {
+    .post-image img {
+        height: 400px !important;
+        width: 100% !important;
+        margin: 0px !important;
+    }
 }
