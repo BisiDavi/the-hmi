@@ -24,5 +24,5 @@ Route::view('/gallery', 'pages.gallery');
 Route::view('/contact-us-2', 'pages.contact');
 Route::view('/covid-19', 'post.covid19');
 Route::view('/2-for-1-burger', 'post.burger');
-Route::view('/early-bird-specials', 'post.earlybird');
+Route::view('/hmi-goes-bollywood', 'post.earlybird');
 Route::view('/half-price-drinks', 'post.halfdrinks');

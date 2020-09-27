@@ -15,7 +15,8 @@
     <div class="card-group mb-3">
       <div class="card">
         <span class="icon my-4 mx-auto">
-          <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+          <img src="{{ asset('images/map.svg') }}" alt="map">
+          {{-- <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i> --}}
         </span>
         <p class="card-text text-center font-weight-bold">
           Western Road, Hailsham, BN27 3DN
@@ -23,7 +24,8 @@
       </div>
       <div class="card">
         <span class="icon my-4 mx-auto">
-          <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+          <img src="{{ asset('images/mobile-phone.svg') }}" alt="map">
+          {{-- <i class="fa fa-mobile fa-2x" aria-hidden="true"></i> --}}
         </span>
         <p class="card-text text-center font-weight-bold">
           (01323) 840459
@@ -31,7 +33,8 @@
       </div>
       <div class="card">
         <span class="icon my-4 mx-auto">
-          <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+          <img src="{{ asset('images/email.svg') }}" alt="map">
+          {{-- <i class="fa fa-envelope fa-2x" aria-hidden="true"></i> --}}
         </span>
         <p class="card-text text-center font-weight-bold">
           office@thehmi.co.uk

@@ -25,9 +25,7 @@
         <p>2020</p>
       </div>
       <div class="post">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat
+        <p>Spice up your life with HMI’s latest taste of India Two perfectly seasoned and full flavoured Currys are here to tickle your taste buds. We have a choice of our take on the traditional Chicken Tikka Masala & our vegetarian Butternut Squash, Spinach and Chick Pea. Served with yellow rice, 2 naan bread and a handful of miniature popadoms.
         </p>
         <h3 class="offer-date"><span>Offer Date : </span> 00/ 00 / 0000</h3>
         <h3 class="offer-date"><span>Offer Time : </span> 00 : 00 </h3>

@@ -128,7 +128,7 @@
     <!-- Loading Screen -->
     <div data-u="loading" class="jssorl-009-spin"
       style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-      <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;"
+      <img style="margin-top:-19px;position:relative;left:-10%;top:50%;width:38px;height:38px;"
         src="{{ asset('images/spin.svg') }}" />
     </div>
     <div class="jssor-slides" data-u="slides"
@@ -142,7 +142,9 @@
               <p class="text-white">Welcome back - We've Missed You</p>
               <hr class="bg-yellow w-25">
             </div>
-            <button class="btn btn-outline-light">Read About Our Covid 19 Measures</button>
+            <a href="/covid-19">
+              <button class="btn btn-outline-light">Read About Our Covid 19 Measures</button>
+            </a>
           </div>
         </div>
         <img data-u="image" class="slider-image" src="{{ asset('images/slider1.jpg') }}" />
@@ -158,7 +160,8 @@
               <p class="text-white">Your Local Family Social Club</p>
               <hr class="bg-yellow w-25">
             </div>
-            <button class="btn btn-outline-light">Find Out Whats</button>
+            <a href="/events">
+              <button class="btn btn-outline-light">Find Out Whats</button></a>
           </div>
         </div>
         <img data-u="image" class="slider-image" src="{{ asset('images/slider2.jpg') }}" />

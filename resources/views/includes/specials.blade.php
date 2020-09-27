@@ -13,30 +13,13 @@
       <div class="card">
         <div class="title text-white">
           <a href="/early-bird-specials">
-            Early Bird Specials
+            HMI Goes Bollywood
           </a>
         </div>
         <hr class="bg-white">
         <div class="card-info text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor earum aliquam deserunt aspernatur totam non
-          tempore reprehenderit ...
-        </div>
-      </div>
-    </div>
-    <div class="special col-lg-4 col-md-4 col-sm-4">
-      <div class="special-img-container">
-        <img src="{{ asset('images/gallery-1.jpg') }}" alt="">
-      </div>
-      <div class="card">
-        <div class="title text-white">
-          <a href="/half-price-drinks">
-            Half Price Drinks
-          </a>
-        </div>
-        <hr class="bg-white">
-        <div class="card-info text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor earum aliquam deserunt aspernatur totam non
-          tempore reprehenderit ...
+          Spice up your life with HMI’s latest taste of India Two perfectly seasoned and full flavoured Currys are here
+          to ...
         </div>
       </div>
     </div>
@@ -46,14 +29,29 @@
       </div>
       <div class="card">
         <div class="title text-white">
-          <a href="/2-for-1-burger">
-            2 For 1 Burgers
+          <a href="/half-price-drinks">
+            Gourmet Burger – £7.00
           </a>
         </div>
         <hr class="bg-white">
         <div class="card-info text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor earum aliquam deserunt aspernatur totam
-          nontempore reprehenderit ...
+          Why not treat yourself to our classic Gourmet Burger with all the trimmings. Thick and juicy burger complete with tomatoes, ...
+        </div>
+      </div>
+    </div>
+    <div class="special col-lg-4 col-md-4 col-sm-4">
+      <div class="special-img-container">
+        <img src="{{ asset('images/gin.jpg') }}" alt="">
+      </div>
+      <div class="card">
+        <div class="title text-white">
+          <a href="/2-for-1-burger">
+            Drinks Promotion
+          </a>
+        </div>
+        <hr class="bg-white">
+        <div class="card-info text-white">
+          FREE Bottled Mixer with any Large Gin Members Only Bottle of Old Mout Cider – ONLY £2.00 Berries & Cherries ...
         </div>
       </div>
     </div>
