@@ -14,14 +14,14 @@
             <div class="flip-card-text">
               <i class="fa fa-2x fa-usd" aria-hidden="true"></i>
               <h5 class="title text-white mb-4">Bingo Thursday</h5>
-              <h5 class="info">Why not join us every Thursday from 12:30pm for our very own cash prize Bingo</h5>
+              <h5 class="info">Every Thursday from 12:30pm</h5>
             </div>
           </div>
         </div>
         <div class="flip-card-back">
           <div class="flip-card-back-overlay">
             <div class="flip-card-text">
-              <p class="info text-white">Details about Bingo</p>
+              <p class="info text-white">Why not let your hair down and join us for Cash Bingo. Many prizes to be won every Thursday from 12:30pm</p>
             </div>
           </div>
         </div>
@@ -32,9 +32,9 @@
         <div class="flip-card-front-overlay">
           <div class="flip-card-front">
             <div class="flip-card-text">
-              <i class="fa fa-2x fa-address-card-o" aria-hidden="true"></i>
-              <h5 class="title text-white mb-4">Card Draw</h5>
-              <h5 class="info">Event Date: 8/12/2020</h5>
+              <i class="fa fa-2x fa-location-arrow" aria-hidden="true"></i>
+              <h5 class="title text-white mb-4">Darts</h5>
+              <h5 class="info">Friday Night Darts Returns</h5>
             </div>
           </div>
         </div>
@@ -42,9 +42,7 @@
           <div class="flip-card-back-overlay">
             <div class="flip-card-text">
               <p class="text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eaque ipsa expedita iste quos esse
-                dignissimos voluptates accusantium vitae perferendis quibusdam omnis ab maiores earum perspiciatis
-                necessitatibus. Enim, quia quis?
+                The darts league is back. Every Friday at the HMI come join our ladies and gentleman as they try and complete with other local teams.
               </p>
             </div>
           </div>
@@ -57,8 +55,8 @@
           <div class="flip-card-front">
             <div class="flip-card-text">
               <i class="fa fa-2x fa-car" aria-hidden="true"></i>
-              <h5 class="title text-white mb-4">Days Trips</h5>
-              <h5 class="info">Event Date: 8/20/2020</h5>
+              <h5 class="title text-white mb-4">Bonus Ball</h5>
+              <h5 class="info">The HMI Bonus Ball is Back!</h5>
             </div>
           </div>
         </div>
@@ -66,9 +64,16 @@
           <div class="flip-card-back-overlay">
             <div class="flip-card-text">
               <p class="title text-white">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea et delectus quidem corrupti eos facere
-                praesentium sequi in eum provident cum perferendis assumenda voluptate facilis, blanditiis, a animi
-                recusandae ipsum!
+                ALL of the money goes to the winner unless....The bonus ball is no 1 - then the money goes to the club...If the ball is no 29 - then the money goes to charity...If the ball is 59 - then the money goes to a rollover!!
+              </p>
+              <br>
+              <br>
+              <p class="title text-white">
+              If all numbers bar the 3 special balls are sold the winner will receive £110 with £2 each week being added to the pot for a bigger prize at Christmas!!
+              </p>
+              <br>
+              <p class="title text-white">
+                £2 to enter - see details on the notice board.
               </p>
             </div>
           </div>

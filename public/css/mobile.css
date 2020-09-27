@@ -444,11 +444,55 @@ ul #menulinks{
     }
 }
 
+@media (min-width: 400px) and (max-width: 450px) {
+    nav .menu-icon.d-block {
+        position: absolute;
+        right: 20px !important;
+        bottom: 22px;
+    }
+    .row .button.m-auto.p-5 {
+        margin-top: -20px !important;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 380px) {
+    section.container-fluid.events {
+        margin-bottom: 78vh;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 560px) {
+    .menu-icon.d-block {
+        margin-top: -10px !important;
+        position: absolute;
+        bottom: 20px;
+    }
+    .row .button.m-auto.p-5 {
+        margin-top: -23px !important;
+    }
+    .row.d-block {
+        padding-top: 1px !important;
+    }
+    .our-menu {
+        padding: 20px 0;
+        margin: auto;
+    }
+    .section-title hr.m-auto {
+        margin-top: 7% !important;
+    }
+    .rounded-circle.text-white {
+        left: 45%;
+    }
+    .latest-news .card-body {
+        padding: 0px 30px;
+    }
+}
+
 @media (max-width: 750px) {
     .card .icon img:hover {
-    background: yellow;
-    transition-duration: 0.5s;
-    transition: all ease-in;
+        background: yellow;
+        transition-duration: 0.5s;
+        transition: all ease-in;
     }
     #menusidebar a {
         text-decoration: none;
@@ -611,5 +655,24 @@ ul #menulinks{
     border: none !important;
 }
 
-@media (min-width: 1320px) {
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .header-links {
+        width: 330px !important;
+        margin-left: -95px !important;
+    }
+    .our-menu {
+        padding: 20px;
+    }
+    .specials .row:first-child {
+        padding: 1px 0 35px 0px;
+    }
+    section.container-fluid.events {
+        height: 650px;
+    }
+    .img-overlay {
+        position: absolute;
+        width: 100% !important;
+        background: rgba(0, 0, 0, 0.3);
+        height: 70% !important;
+    }
 }

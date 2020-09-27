@@ -1,11 +1,11 @@
-#jssor_1{
-  width: 100% !important;
-  height: 600px !important ;
+#jssor_1 {
+    width: 100% !important;
+    height: 600px !important ;
 }
 
-#jssor_1 .jssor-slides{
-  width: 100% !important;
-  height: 550px !important ;
+#jssor_1 .jssor-slides {
+    width: 100% !important;
+    height: 550px !important ;
 }
 
 .jssor-slides .img-container {
@@ -31,16 +31,21 @@ img.slider-image {
     height: 560px !important;
 }
 
-.img-overlay{
-  position: absolute;
-  width: 100% !important;
-  background: rgba(0,0,0,0.30);
-  height: 360px !important;
+.img-overlay {
+    position: absolute;
+    width: 100% !important;
+    background: rgba(0, 0, 0, 0.3);
+    height: 360px !important;
+}
+
+.jssora061 {
+    height: 45px !important;
+    width: 45px !important;
 }
 
 .content.m-auto h1 {
     color: yellow !important;
-    font-size: 35px !important;
+    font-size: 25px !important;
     font-family: Oswald;
 }
 
@@ -59,7 +64,7 @@ img.slider-image {
     display: block;
     position: absolute;
     border-radius: 50%;
-    background: rgba(0,0,0,0.54);
+    background: rgba(0, 0, 0, 0.54);
     top: -200px !important;
     cursor: pointer;
 }
@@ -74,7 +79,7 @@ img.slider-image {
 button.btn.btn-outline-light {
     margin: auto !important;
     display: flex;
-    border-color: rgba(225,225,225,0.5) !important;
+    border-color: rgba(225, 225, 225, 0.5) !important;
 }
 
 button.btn.btn-outline-light:hover {

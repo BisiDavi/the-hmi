@@ -10,11 +10,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/event.css">
   <link rel="stylesheet" href="css/slider.css">
-  <link rel="stylesheet" href="css/mobile.css">
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  <link rel="stylesheet" href="css/mobile.css">  
   <script src="js/float-panel.js"></script>
   <script src="js/nav.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">

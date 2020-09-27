@@ -101,6 +101,9 @@
       position: absolute;
       cursor: pointer;
     }
+    .jssorl-009-spin{
+      height: 100% !important;
+    }
 
     .jssora061 .a {
       fill: none;
@@ -127,7 +130,7 @@
     style="position:relative;margin:0 auto;top:0px;left:0px;width:800px;height:550px;overflow:hidden;visibility:hidden;">
     <!-- Loading Screen -->
     <div data-u="loading" class="jssorl-009-spin"
-      style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+      style="position:absolute;top:0px;left:0px;width:100%;height:100% !important;text-align:center;background-color:rgba(0,0,0,0.7);">
       <img style="margin-top:-19px;position:relative;left:-10%;top:50%;width:38px;height:38px;"
         src="{{ asset('images/spin.svg') }}" />
     </div>

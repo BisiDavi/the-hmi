@@ -45,16 +45,14 @@
     </div>
     <div class="header-links">
       <ul class="social-icons ">
-        <li class="animate__animated animate__pulse animate__repeat-2 animate__fast">
           <a href="#" > 
-           {{--  <i class="fa fa-facebook rounded-circle p-2 mr-2 text-white" aria-hidden="true"></i> --}}
            <img src="{{ asset('images/facebook.svg') }}" class="" alt="facebook">
           </a>
         </li>
-        <li class="animate__animated animate__pulse">
+        <li>
           <a href="#"> <i class="fa fa-twitter rounded-circle p-2 mr-2 text-white" aria-hidden="true"></i></a>
         </li>
-        <li class="animate__animated animate__pulse">
+        <li>
           <a href="#"> <i class="fa fa-envelope-o rounded-circle p-2 mr-2 text-white" aria-hidden="true"></i></a>
         </li>
         <li>
@@ -78,32 +76,24 @@
             <i class="fa fa-2x fa-window-close" aria-hidden="true"></i>
           </a>
         </li>
-        <li class="menu {{ Request::is('/') ? 'active': ''}}">
-          <a href="{{ url('/') }}">Home</a>
+        <li class="menu"><a href="/">Home</a></li>
+        <li class="menu">
+          <a href="/events">Events</a>
         </li>
-        <li 
-        class="menu {{ Request::is('events') ? 'active': ''}}">
-          <a href="{{ url('/events') }}">Events</a>
+        <li class="menu">
+          <a href="'/special-2">Special</a>
         </li>
-        <li 
-        class="menu {{ Request::is('special-2') ? 'active': ''}}">
-          <a href="{{  url('/special-2') }}">Special</a>
+        <li class="menu">
+          <a href="'/menu-2">Menu</a>
         </li>
-        <li 
-        class="menu {{ Request::is('menu-2') ? 'active': ''}}">
-          <a href="{{  url('/menu-2') }}">Menu</a>
+        <li class="menu">
+          <a href="/latest-news">Latest News</a>
         </li>
-        <li 
-        class="menu {{ Request::is('latest-news') ? 'active': ''}}">
-          <a href="{{  url('/latest-news') }}">Latest News</a>
+        <li class="menu">
+          <a href="/gallery">Gallery</a>
         </li>
-        <li 
-        class="menu {{ Request::is('gallery') ? 'active': ''}}">
-          <a href="{{  url('/gallery') }}">Gallery</a>
-        </li>
-        <li 
-        class="menu contact {{ Request::is('contact-us-2') ? 'active': ''}}">
-          <a href="{{  url('/contact-us-2') }}">Contact us</a>
+        <li class="menu contact">
+          <a href="/contact-us-2">Contact us</a>
         </li>
         <li class="menu">
           <a href="#">

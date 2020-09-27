@@ -186,6 +186,18 @@ section.container-fluid.events {
     -o-transform: scale(1.05);
     transform: scale(1.07);
 }
+.social-icons i:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.07);
+}
+.social-icons i {
+    -webkit-transition: transform 0.2s linear;
+    -moz-transition: transform 0.2s linear;
+    -o-transition: transform 0.2s linear;
+    transition: transform 0.2s linear;
+}
 .social-icons img {
     width: 33px;
     height: 33px;
@@ -203,10 +215,12 @@ section.container-fluid.events {
 nav.navbar.float-panel.container-fluid {
     box-shadow: 2px 3px 15px #ccc;
     height: 78px;
+    background: white;
+    opacity: 1;
+    z-index: 10000;
 }
 
 .navbar div:nth-child(2) {
-    /* margin-left: -90px; */
     justify-content: center;
     margin: 0 25px;
 }
@@ -541,7 +555,7 @@ img.news-thumbnail {
     height: 500px;
     position: absolute !important;
     opacity: 0.75;
-    width: 500px;
+    width: 100% !important;
     transition: opacity 600ms ease;
 }
 
