@@ -12,7 +12,7 @@
       </div>
       <div class="card">
         <div class="title text-white">
-          <a href="/early-bird-specials">
+          <a href="/hmi-goes-bollywood">
             HMI Goes Bollywood
           </a>
         </div>

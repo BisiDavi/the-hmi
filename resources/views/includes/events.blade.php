@@ -54,7 +54,7 @@
         <div class="flip-card-front-overlay">
           <div class="flip-card-front">
             <div class="flip-card-text">
-              <i class="fa fa-2x fa-car" aria-hidden="true"></i>
+              <i class="fa fa-2x fa-futbol-o" aria-hidden="true"></i>
               <h5 class="title text-white mb-4">Bonus Ball</h5>
               <h5 class="info">The HMI Bonus Ball is Back!</h5>
             </div>
