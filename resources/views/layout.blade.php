@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="css/event.css">
   <link rel="stylesheet" href="css/slider.css">
   <link rel="stylesheet" href="css/mobile.css">
-  <link 
-    rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" 
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
   <script src="js/float-panel.js"></script>
   <script src="js/nav.js"></script>
@@ -34,9 +34,6 @@
   @include('partials.nav')
 
   @yield('content')
-
-
-
 
   @include('partials.footer')
 

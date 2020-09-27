@@ -45,17 +45,17 @@
     </div>
     <div class="header-links">
       <ul class="social-icons ">
-        <li>
-          <a href="#" class="animate__animated animate__pulse"> 
+        <li class="animate__animated animate__pulse animate__repeat-2 animate__fast">
+          <a href="#" > 
            {{--  <i class="fa fa-facebook rounded-circle p-2 mr-2 text-white" aria-hidden="true"></i> --}}
            <img src="{{ asset('images/facebook.svg') }}" class="" alt="facebook">
           </a>
         </li>
-        <li>
-          <a href="#" class="animate__animated animate__pulse"> <i class="fa fa-twitter rounded-circle p-2 mr-2 text-white" aria-hidden="true"></i></a>
+        <li class="animate__animated animate__pulse">
+          <a href="#"> <i class="fa fa-twitter rounded-circle p-2 mr-2 text-white" aria-hidden="true"></i></a>
         </li>
-        <li>
-          <a href="#" class="animate__animated animate__pulse"> <i class="fa fa-envelope-o rounded-circle p-2 mr-2 text-white" aria-hidden="true"></i></a>
+        <li class="animate__animated animate__pulse">
+          <a href="#"> <i class="fa fa-envelope-o rounded-circle p-2 mr-2 text-white" aria-hidden="true"></i></a>
         </li>
         <li>
           <a href="#">

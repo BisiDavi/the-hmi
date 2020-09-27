@@ -180,11 +180,21 @@ section.container-fluid.events {
     margin-right: 18px !important;
     margin-top: 2px !important;
 }
+.social-icons img:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.07);
+}
 .social-icons img {
     width: 33px;
     height: 33px;
     margin-top: -2px;
     margin-right: 5px !important;
+    -webkit-transition: transform 0.2s linear;
+    -moz-transition: transform 0.2s linear;
+    -o-transition: transform 0.2s linear;
+    transition: transform 0.2s linear;
 }
 #menulinks .active {
     border: 4px solid #099345;

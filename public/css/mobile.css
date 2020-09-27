@@ -296,7 +296,7 @@ ul #menulinks{
         margin: auto !important;
         margin: auto;
         padding: 0px !important;
-        margin-top: 40px !important;
+        margin-top: 25px !important;
     }
 
     /* Gallery */
@@ -445,6 +445,14 @@ ul #menulinks{
 }
 
 @media (max-width: 750px) {
+    .card .icon img:hover {
+    background: yellow;
+    transition-duration: 0.5s;
+    transition: all ease-in;
+    }
+    #menusidebar a {
+        text-decoration: none;
+    }
     li.close-button {
         float: right;
         margin-top: -65px;
