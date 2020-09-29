@@ -8,6 +8,10 @@
     height: 550px !important ;
 }
 
+.welcome.d-flex a {
+    text-decoration: none;
+}
+
 .jssor-slides .img-container {
     width: 100% !important;
     height: 550px !important;

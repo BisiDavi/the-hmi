@@ -81,10 +81,10 @@
           <a href="/events">Events</a>
         </li>
         <li class="menu">
-          <a href="'/special-2">Special</a>
+          <a href="/special-2">Special</a>
         </li>
         <li class="menu">
-          <a href="'/menu-2">Menu</a>
+          <a href="/menu-2">Menu</a>
         </li>
         <li class="menu">
           <a href="/latest-news">Latest News</a>
