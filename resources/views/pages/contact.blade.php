@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="css/pages/contact.css">
 @endsection
 
+<!-- contact updated -->
+
 @section('content')
   <div class="contact-page">
     <section class="contact container-fluid">
